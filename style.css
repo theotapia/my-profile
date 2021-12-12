@@ -1,0 +1,124 @@
+body {
+	color: #96C7C1;
+	background-image: url(images/nice.jpg);
+	background-size: 100% 100%;
+	font-family: Time, serif;
+}
+
+a {
+	text-decoration: none;
+	color: #DED9C4;
+}
+
+h1 {
+	color: #89B5AF;
+	font-family: tahoma;
+	font-size: 32px;
+}
+
+h2 {
+	color: #DED9C4;
+	font-size: 24px;
+}
+
+#liste-reseaux-sociaux {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+li {
+	margin-bottom: 15px;
+	display: inline;
+	font-size: 24px;
+}
+
+#profile-picture {
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+}
+
+.container {
+  width: 1040px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.card-white {
+	background: white;
+	padding: 30px;
+	margin: 12px auto;
+	border-radius: 8px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 0.5);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn {
+	width: 160px;
+	height: 96px;
+	padding: 16px;
+	background: #96C7C1;
+	color: #DED9C4;
+	border-radius: 6px;
+	border: solid 1px #96C7C1;
+}
+
+.btn:hover {
+	background: #89B5AF;
+	color: white;
+	border: solid 1px #89B5AF;
+	transition: 0.5s;
+}
+
+#ags {
+  background-image: url(images/ags.png);
+  background-position: center;
+  background-size: auto 100%;
+}
+
+#geopo {
+  background-image: url(images/carte.jpeg);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+#poker {
+  background-image: url(images/poker.jpeg);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+#reseaux {
+  background-image: url(images/reseaux.jpg);
+  background-position: center;
+  background-size: 100% auto;
+}
+
+#titre {
+  color: #89B5AF;
+  font-size: 24px;
+  padding: 8px 20px 8px 20px;
+  background: #DED9C4;
+  border-radius: 32px;
+}
+
+#fond {
+  color: #96C7C1;
+  padding: 6px 16px 6px 16px;
+  background: #DED9C4;
+  border-radius: 32px;
+}
+
+@media(max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media(max-width: 600px) {
+	.container {
+		width: 400px;
+	}
+}
